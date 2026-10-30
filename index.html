@@ -1,279 +1,63 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#050505">
-  <meta name="description" content="Axiom Engine — AI-powered building tools for Roblox Studio.">
-  <title>Axiom Engine — Precision Builder</title>
-
-  <style>
-    :root {
-      color-scheme: dark;
-      --bg: #050505;
-      --fg: #e6e6e8;
-      --muted: #b8b8be;
-      --purple: #a36aff;
-      --border: #1b1b1e;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--fg);
-      font-family: Arial, Helvetica, sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .container {
-      max-width: 744px;
-      margin: 0 auto;
-      padding: 0 12px;
-    }
-
-    header {
-      height: 110px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: var(--fg);
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: 700;
-    }
-
-    .brand svg { color: var(--purple); }
-
-    nav {
-      display: flex;
-      gap: 14px;
-      align-items: center;
-    }
-
-    nav a {
-      color: #c5c5c9;
-      text-decoration: none;
-      font-size: 11px;
-    }
-
-    nav a:hover,
-    footer a:hover {
-      color: var(--purple);
-    }
-
-    main {
-      text-align: center;
-      padding: 41px 0 0;
-    }
-
-    .eyebrow {
-      color: var(--purple);
-      font-size: 12px;
-      margin: 0 0 16px;
-    }
-
-    h1 {
-      font-size: 24px;
-      letter-spacing: -0.5px;
-      margin: 0 0 13px;
-    }
-
-    .subtitle {
-      color: #c8c8cd;
-      font-size: 14px;
-      margin: 0 0 14px;
-    }
-
-    .actions {
-      display: flex;
-      justify-content: center;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .button {
-      min-height: 52px;
-      padding: 0 14px;
-      border-radius: 12px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      text-decoration: none;
-      font-size: 14px;
-      color: var(--fg);
-      border: 1px solid #29292c;
-      transition: 0.15s;
-    }
-
-    .button:hover {
-      transform: translateY(-2px);
-      border-color: var(--purple);
-    }
-
-    .primary {
-      background: #242426;
-      font-weight: 600;
-    }
-
-    .secondary {
-      background: transparent;
-    }
-
-    .button svg {
-      width: 17px;
-      height: 17px;
-      fill: none;
-      stroke: currentColor;
-      stroke-width: 1.8;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .release {
-      color: #c8c8cd;
-      font-size: 13px;
-      margin-top: 14px;
-    }
-
-    footer {
-      margin-top: 90px;
-      padding: 25px 0;
-      border-top: 1px solid var(--border);
-      display: flex;
-      justify-content: space-between;
-      gap: 15px;
-      color: #777;
-      font-size: 11px;
-    }
-
-    footer a {
-      color: #999;
-      text-decoration: none;
-    }
-
-    @media (max-width: 520px) {
-      .container { padding: 0 20px; }
-      header { height: 88px; }
-      .brand { font-size: 13px; }
-      nav { gap: 10px; }
-      main { padding-top: 60px; }
-      h1 { font-size: 26px; }
-      .subtitle, .release { line-height: 1.6; }
-      footer { flex-direction: column; text-align: center; }
-    }
-  </style>
-</head>
-
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090c14">
+<meta name="description" content="Roblox Axiom Engine — smarter AI-assisted modeling, building and programming for Roblox Studio.">
+<title>Axiom Engine — Official Website</title>
+<style>
+:root{color-scheme:dark;--bg:#090d15;--panel:#101620;--line:#263043;--text:#f2f3fb;--muted:#aab6d0;--purple:#a855f7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 70% 0%,#121026 0%,transparent 45%),var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;font-size:15px;line-height:1.55}
+a{color:inherit;text-decoration:none}a:hover{color:#c28bff}button{font:inherit}header{height:86px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 40px;border-bottom:1px solid var(--line);background:#0a0e17}
+.brand{display:flex;align-items:center;gap:16px}.logo{font-size:49px;font-weight:1000;line-height:1;background:linear-gradient(145deg,#f2a8ff,#7c3aed 60%,#b86aff);background-clip:text;-webkit-background-clip:text;color:transparent;filter:drop-shadow(0 0 9px #7b36ff50);letter-spacing:-8px;padding-right:9px;transform:skew(-8deg)}.brand strong{display:block;font-size:26px;letter-spacing:-.7px}.brand strong span{color:var(--purple)}.brand small{color:var(--muted);display:block;font-size:13px}.top-actions{display:flex;align-items:center;gap:16px}.search{border:1px solid var(--line);background:#0c111c;color:#aebbd4;border-radius:9px;padding:10px 15px;width:270px}.github{border:1px solid #6634a6;padding:10px 18px;border-radius:9px;font-weight:650}
+.layout{display:grid;grid-template-columns:270px minmax(0,1fr) 220px;max-width:1800px;margin:auto;min-height:calc(100vh - 250px)}aside{padding:30px 24px;border-right:1px solid var(--line)}.right{border-right:0;border-left:1px solid var(--line);padding:30px 20px}.side-title{font-size:14px;color:#bd78ff;font-weight:650;margin:0 0 12px}.navlink{display:flex;align-items:center;gap:12px;padding:10px 13px;border-radius:8px;color:#c8d3e8;font-size:14px}.navlink.active{background:#301954;color:white;font-weight:700}.navlink:hover{background:#201b34;color:white}.symbol{font-size:19px;width:22px;text-align:center;color:#b7a7ff}.sidebar-rule{border:0;border-top:1px solid var(--line);margin:25px 0}.content{padding:24px 30px 50px;min-width:0;max-width:1120px;width:100%;margin:0 auto}
+.hero{min-height:240px;border:1px solid #45217c;border-radius:12px;overflow:hidden;position:relative;display:flex;align-items:center;padding:36px 40px;background:radial-gradient(circle at 86% 60%,#7727c6 0%,#2a104d 22%,transparent 48%),linear-gradient(115deg,#180a32,#080a16 75%)}
+.hero:after{content:"";position:absolute;right:-20px;bottom:-80px;width:360px;height:250px;background:repeating-linear-gradient(30deg,transparent 0 23px,#b04bff16 24px 26px),repeating-linear-gradient(150deg,transparent 0 24px,#b04bff1a 25px 27px);transform:skewY(-13deg);opacity:.9}.hero-mark{font-size:125px;font-weight:1000;letter-spacing:-18px;line-height:1;padding-right:34px;color:#ae5bff;text-shadow:0 0 35px #8c36f2;transform:skew(-9deg);z-index:1}.hero-copy{z-index:1}.hero-copy h1{font-size:clamp(31px,3.5vw,53px);line-height:1.08;margin:0 0 10px;letter-spacing:-1.5px}.hero-copy h1 span{color:#b05bff}.hero-copy p{margin:0;color:#c3b8d7;font-size:17px}.status{font-size:12px;color:#c5a9ec;margin-top:15px!important}
+h2{font-size:27px;letter-spacing:-.5px;margin:25px 0 8px}h3{font-size:17px;margin:0 0 7px}.lead{font-size:16px;color:#c4cee2;margin:0 0 18px}.mission{display:flex;gap:18px;background:linear-gradient(125deg,#141827,#0d131e);border:1px solid #242c3b;border-radius:11px;padding:18px;margin:20px 0}.mission-icon{font-size:31px;background:#261a47;color:#b269ff;border-radius:10px;padding:10px;height:fit-content}.mission p{margin:0;color:#c5cee1}.mission b{color:#c17dff}.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}.card{display:flex;gap:16px;border:1px solid #252d3c;border-radius:10px;padding:18px;background:linear-gradient(125deg,#131924,#0d121c);min-height:130px}.card .symbol{font-size:27px;background:#251a41;border-radius:9px;width:53px;min-width:53px;height:53px;display:grid;place-items:center}.card p{margin:0;color:#b8c3d8;font-size:14px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}.btn{padding:12px 17px;border-radius:9px;border:1px solid #4d3a6d;background:#20162f;font-weight:700;cursor:pointer}.btn.primary{background:#7135bd;border-color:#9853ed;color:#fff}.btn[aria-disabled=true]{opacity:.65;cursor:not-allowed}.quick{display:block;border:1px solid var(--line);background:#0e1420;padding:10px 12px;border-radius:8px;margin:6px 0;font-size:13px;color:#d7def0}.quick:hover{border-color:#9a56e7}.right .side-title{margin-bottom:12px}.toc a{display:block;padding:6px 0 6px 14px;border-left:1px solid #3a3053;color:#b8c4da;font-size:13px}.toc a:hover{border-color:#ae67ff;color:white}footer{border-top:1px solid var(--line);background:#0b1019;padding:26px 40px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px;font-size:13px;color:#a8b4cb}footer strong{color:#fff}footer a{display:block;margin:4px 0}footer .brand strong{font-size:20px}footer .logo{font-size:40px}footer p{margin:3px 0}
+@media(max-width:1180px){.layout{grid-template-columns:220px minmax(0,1fr)}.right{display:none}aside{padding:25px 12px}.content{padding:20px}.hero{padding:28px}.hero-mark{font-size:95px}}
+@media(max-width:740px){header{padding:15px 18px;height:auto}.brand strong{font-size:19px}.brand small{font-size:10px}.logo{font-size:37px}.search{display:none}.github{font-size:12px;padding:8px}.layout{display:block}.left{border:0;border-bottom:1px solid var(--line);padding:12px;display:flex;overflow-x:auto;gap:3px}.left .side-title,.left .sidebar-rule,.left .secondary-links{display:none}.navlink{white-space:nowrap;padding:9px;font-size:12px}.navlink .symbol{display:none}.content{padding:16px}.hero{min-height:210px;padding:25px 20px}.hero-mark{font-size:65px;letter-spacing:-10px;padding-right:23px}.hero-copy h1{font-size:28px}.hero-copy p{font-size:13px}.cards{grid-template-columns:1fr}footer{grid-template-columns:1fr 1fr;padding:24px 20px}}
+</style></head>
 <body>
-  <div class="container">
-
-    <header>
-      <a class="brand" href="./">
-        <svg width="18" height="18" viewBox="0 0 24 24"
-             fill="none" stroke="currentColor"
-             stroke-width="1.7" stroke-linejoin="round">
-          <path d="M12 2.5 20 7v10l-8 4.5L4 17V7l8-4.5Z"/>
-          <path d="m4 7 8 4.5L20 7M12 11.5v10"/>
-        </svg>
-        AXIOM ENGINE
-      </a>
-
-      <nav>
-        <a href="./">Home</a>
-        <a href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine/releases">Downloads</a>
-        <a href="docs.html">Docs</a>
-        <a href="wiki.html">Wiki</a>
-      </nav>
-    </header>
-
-    <main>
-      <p class="eyebrow">PRECISION BUILDER</p>
-
-      <h1>Build Beyond Limits.</h1>
-
-      <p class="subtitle">
-        AI-powered building tools for Roblox Studio.
-      </p>
-
-      <div class="actions">
-
-        <a class="button primary"
-           href="#" id="download-latest" aria-disabled="true">
-          <svg viewBox="0 0 24 24">
-            <path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3"/>
-          </svg>
-          Download Latest
-        </a>
-
-        <a class="button secondary" href="docs.html">
-          <svg viewBox="0 0 24 24">
-            <path d="M12 6.5c-3-2-6-2-9-1v13c3-1 6-1 9 1 3-2 6-2 9-1v-13c-3-1-6-1-9 1Zm0 0v13"/>
-          </svg>
-          Documentation
-        </a>
-
-      </div>
-
-      <p class="release" id="release-status">
-        Checking latest release · Roblox Studio
-      </p>
-    </main>
-
-    <footer>
-      <span>© 2026 Axiom Engine — 404 Studios br</span>
-      <a href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine/blob/main/LICENSE">
-        License
-      </a>
-    </footer>
-
-  </div>
-  <script>
-    const releasesApi = "https://api.github.com/repos/jgzinhoooo/Roblox-Axiom-Engine/releases/latest";
-    const downloadButton = document.getElementById("download-latest");
-    const releaseStatus = document.getElementById("release-status");
-
-    async function setupDownload() {
-      try {
-        const response = await fetch(releasesApi, {
-          headers: { "Accept": "application/vnd.github+json" }
-        });
-        if (!response.ok) throw new Error("No published release");
-        const release = await response.json();
-        const assets = release.assets || [];
-        const asset = assets.find(a => /\.(rbxm|rbxmx|rbxl|rbxlx|zip)$/i.test(a.name))
-                   || assets.find(a => !/\.(txt|md|json)$/i.test(a.name));
-        if (!asset) {
-          releaseStatus.textContent = "No downloadable plugin available yet";
-          downloadButton.setAttribute("aria-disabled", "true");
-          return;
-        }
-        downloadButton.href = asset.browser_download_url;
-        downloadButton.removeAttribute("aria-disabled");
-        releaseStatus.textContent = release.tag_name + " · " + asset.name;
-      } catch (error) {
-        releaseStatus.textContent = "Download coming soon · Roblox Studio";
-        downloadButton.setAttribute("aria-disabled", "true");
-      }
-    }
-
-    downloadButton.addEventListener("click", event => {
-      if (downloadButton.getAttribute("aria-disabled") === "true") {
-        event.preventDefault();
-      }
-    });
-
-    setupDownload();
-  </script>
-</body>
-</html>
+<header><a class="brand" href="./"><span class="logo">A</span><div><strong>Axiom <span>Engine</span></strong><small>AI-Powered Development for Roblox Studio</small></div></a><div class="top-actions"><input class="search" type="search" placeholder="Search this page..." aria-label="Search this page" id="site-search"><a class="github" href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine">◉ GitHub ↗</a></div></header>
+<div class="layout">
+<aside class="left"><div class="side-title">Documentation</div>
+<a class="navlink active" href="./"><span class="symbol">⌂</span>Home</a>
+<a class="navlink" href="wiki.html"><span class="symbol">▤</span>Introduction</a>
+<a class="navlink" href="docs.html"><span class="symbol">↓</span>Installation</a>
+<a class="navlink" href="docs.html"><span class="symbol">⚙</span>MCP Setup</a>
+<a class="navlink" href="wiki.html"><span class="symbol">⬡</span>Precision Builder</a>
+<a class="navlink" href="wiki.html"><span class="symbol">✧</span>AI Agents</a>
+<a class="navlink" href="wiki.html"><span class="symbol">▥</span>Optimization</a>
+<a class="navlink" href="wiki.html"><span class="symbol">⌘</span>Examples &amp; Goals</a>
+<a class="navlink" href="docs.html"><span class="symbol">?</span>FAQ / Docs</a>
+<hr class="sidebar-rule"><div class="secondary-links"><div class="side-title">Links</div>
+<a class="navlink" href="https://jgzinhoooo.github.io/Roblox-Axiom-Engine/"><span class="symbol">◎</span>Official Website</a>
+<a class="navlink" href="docs.html"><span class="symbol">▣</span>Documentation</a>
+<a class="navlink" href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine/releases"><span class="symbol">⇩</span>Downloads</a>
+<a class="navlink" href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine"><span class="symbol">◉</span>Source Repository</a>
+<a class="navlink" href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine/blob/main/LICENSE"><span class="symbol">⚖</span>License</a></div></aside>
+<main class="content">
+<section class="hero" id="welcome"><div class="hero-mark">A</div><div class="hero-copy"><h1>Roblox<br><span>Axiom Engine</span></h1><p>Build Beyond Limits.<br>AI-Powered Development for Roblox Studio.</p><p class="status">PRECISION BUILDER · IN DEVELOPMENT</p></div></section>
+<h2>Welcome to the Roblox Axiom Engine!</h2><p class="lead">The central place to explore our project, learn how to connect Roblox Studio, and follow the vision for AI-powered development with smarter use of credits.</p>
+<section class="mission" id="mission"><div class="mission-icon">◎</div><div><h3>Our Mission</h3><p>Enable AI agents to <b>build complex 3D models, construct environments, and program advanced systems inside Roblox Studio without excessive AI credit consumption.</b> We want AI-assisted game development to be powerful, precise, accessible, and efficient.</p></div></section>
+<h2 id="objectives">⚑ Core Objectives</h2><div class="cards">
+<article class="card"><span class="symbol">⬡</span><div><h3>Complex 3D Modeling</h3><p>Build detailed models, structures, environments and complex geometry through precise tools.</p></div></article>
+<article class="card"><span class="symbol">⌘</span><div><h3>AI-Assisted Programming</h3><p>Create, edit, debug and optimize Luau scripts and Roblox gameplay systems.</p></div></article>
+<article class="card"><span class="symbol">▥</span><div><h3>Efficient Credit Usage</h3><p>Reduce unnecessary model requests with shared context, efficient operations and targeted changes.</p></div></article>
+<article class="card"><span class="symbol">♧</span><div><h3>Multi-Agent Collaboration</h3><p>Explore coordinated workflows between Google Antigravity and OpenAI Codex.</p></div></article></div>
+<h2 id="how">How It Works</h2><p class="lead">Precision Builder is being developed around Roblox Studio's MCP Server and shared development tools. Features described here are goals, not guarantees of currently implemented functionality.</p>
+<h2 id="requirements">Requirements</h2><p class="lead">Enable <b>Ativar o Studio como servidor MCP / Activate Studio as MCP Server</b> in Roblox Studio Assistant settings, then connect a supported AI client. Follow our illustrated guide for details.</p>
+<h2 id="plans">Recommended Plans</h2><p class="lead">Google AI Pro for Antigravity and ChatGPT Plus for Codex are optional recommendations. Available usage allowances vary; no paid plan is required by Axiom Engine itself.</p>
+<div class="actions" id="downloads"><a class="btn primary" id="download-latest" href="#" aria-disabled="true">↓ Download Latest</a><a class="btn" href="docs.html">▣ Documentation</a><a class="btn" href="wiki.html">◇ Project Wiki</a></div>
+<p class="lead" id="release-status">Checking latest release…</p>
+</main>
+<aside class="right"><div class="side-title">On this page</div><div class="toc"><a href="#welcome">Welcome</a><a href="#mission">Our Mission</a><a href="#objectives">Core Objectives</a><a href="#how">How It Works</a><a href="#requirements">Requirements</a><a href="#plans">Recommended Plans</a><a href="#downloads">Downloads</a></div><hr class="sidebar-rule"><div class="side-title">Quick Links</div>
+<a class="quick" href="./">◎ Official Website ↗</a><a class="quick" href="docs.html">▣ Documentation ↗</a><a class="quick" href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine/releases">↓ Downloads ↗</a><a class="quick" href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine">◉ Source Repository ↗</a><a class="quick" href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine/blob/main/LICENSE">⚖ License ↗</a>
+</aside></div>
+<footer><div><div class="brand"><span class="logo">A</span><div><strong>Axiom <span>Engine</span></strong><p>© 2026 Axiom Engine — 404 Studios br</p><p>Build smarter. Use less. Create beyond limits.</p></div></div></div><div><strong>Links</strong><a href="./">Official Website</a><a href="docs.html">Documentation</a><a href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine/releases">Downloads</a><a href="wiki.html">Wiki</a><a href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine/blob/main/LICENSE">License</a></div><div><strong>Social</strong><a href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine">GitHub ↗</a></div><div><strong>Made by</strong><p>404 Studios br</p><p><em>“We don't sell games, we make them.”</em></p></div></footer>
+<script>
+const button=document.getElementById('download-latest'),status=document.getElementById('release-status');
+button.addEventListener('click',e=>{if(button.getAttribute('aria-disabled')==='true')e.preventDefault()});
+fetch('https://api.github.com/repos/jgzinhoooo/Roblox-Axiom-Engine/releases/latest',{headers:{Accept:'application/vnd.github+json'}}).then(r=>{if(!r.ok)throw Error('No release');return r.json()}).then(release=>{const files=release.assets||[];const asset=files.find(a=>/\.(rbxm|rbxmx|rbxl|rbxlx|zip)$/i.test(a.name))||files.find(a=>!/\.(txt|md|json)$/i.test(a.name));if(!asset){status.textContent='No downloadable plugin available yet';return}button.href=asset.browser_download_url;button.removeAttribute('aria-disabled');status.textContent=release.tag_name+' · '+asset.name}).catch(()=>{status.textContent='Download coming soon · Roblox Studio'});
+document.getElementById('site-search').addEventListener('keydown',e=>{if(e.key==='Enter'){const q=e.target.value.trim().toLowerCase();if(!q)return;const sections=[...document.querySelectorAll('main h2,main h3')];const match=sections.find(el=>el.textContent.toLowerCase().includes(q));if(match)match.scrollIntoView({behavior:'smooth',block:'center'});else alert('No matching section on this page. Try the Docs or Wiki.')}});
+</script></body></html>
