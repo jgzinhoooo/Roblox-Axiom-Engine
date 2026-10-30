@@ -1,39 +1,48 @@
- Precision Builder — Free Use License
-**Version 1.0**
+# Precision Builder — Free Modification and Distribution License
+Version 1.1
 
 Copyright (c) 2026 404 Studios br. All rights reserved.
 
- 1. Permission to Use
-Permission is granted to download, install, and use Precision Builder free of charge for personal, educational, and commercial game development.
+## 1. Permission to Use
 
- 2. Restrictions
-Users may not:
+Anyone may download, install, and use Precision Builder free of charge for personal, educational, and commercial game development.
 
-- Sell, rent, sublicense, or charge for Precision Builder or any of its components.
-- Modify, adapt, or create derivative versions of the plugin without prior written permission from the copyright holder.
-- Redistribute modified versions of the plugin.
-- Distribute the original plugin for a fee.
-- Remove or alter copyright, ownership, or license notices.
+## 2. Permission to Modify
 
- 3. Free Redistribution
-Redistribution of unmodified, official copies of Precision Builder is permitted only when:
+Anyone may study, modify, adapt, and create derivative versions of Precision Builder without prior authorization.
 
-- The plugin is distributed completely free of charge.
-- This license and all copyright notices are preserved.
-- The distributor does not claim ownership or official endorsement.
+## 3. Free Distribution
 
- 4. Games and User-Created Content
-Users retain ownership of their original games, assets, scripts, and other content created using Precision Builder.
+Original and modified versions may be copied, published, and redistributed, provided that:
 
-Users may monetize such content through Roblox, including game passes, developer products, paid access, and other lawful monetization methods.
+- Distribution is completely free of charge.
+- The corresponding source code is made publicly available at no cost.
+- This license and existing copyright notices are preserved.
+- Modified versions clearly identify their modifications.
+- Modified versions remain subject to these same terms.
 
-Monetization of games or independently created content does not grant permission to sell, modify, or commercially redistribute Precision Builder itself.
+## 4. Prohibition of Plugin Sales
 
- 5. Ownership
-Precision Builder remains the intellectual property of its respective copyright holders. This license grants permission to use the software but does not transfer ownership.
+It is prohibited to sell, rent, sublicense for a fee, or charge for access to Precision Builder, including modified versions, forks, and derivative plugins.
 
- 6. Disclaimer
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, TO THE EXTENT PERMITTED BY APPLICABLE LAW.
+No payment may be required to download, obtain, or use any distributed version of the plugin.
 
- 7. Termination
-Permission under this license terminates upon violation of its terms. Any further use or redistribution requires authorization from the copyright holder.
+## 5. Games and Created Content
+
+Users may create, publish, and monetize games, scripts, models, and other independent content developed using Precision Builder.
+
+Monetization through Roblox, including Robux, game passes, developer products, and other lawful methods, is permitted.
+
+These permissions do not authorize selling the Precision Builder plugin itself.
+
+## 6. Attribution
+
+Redistributors must preserve the original copyright and license notices. Modified versions must not falsely claim to be official releases or endorsed by 404 Studios br.
+
+## 7. Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, TO THE EXTENT PERMITTED BY APPLICABLE LAW.
+
+## 8. Termination
+
+Permissions granted under this license terminate upon violation of its terms, subject to applicable law.
