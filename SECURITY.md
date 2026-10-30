@@ -51,6 +51,17 @@ Roblox Axiom Engine and Precision Builder are provided **"as is"**, without warr
 
 For security vulnerabilities, use GitHub's **private vulnerability reporting** feature. For ordinary bugs and feature issues, use the repository's public **Issues** section, without including secrets or sensitive information.
 
+## AI and MCP Safety Precautions
+
+- Back up Roblox Studio projects before allowing automated changes.
+- Review AI-generated scripts, asset imports, and destructive actions before publishing.
+- Monitor connected AI agents and grant only necessary permissions.
+- Never expose API keys, tokens, or passwords.
+- Check third-party provider terms, costs, and usage limits.
+- Test changes in a safe environment before deploying them.
+
+AI outputs may be incorrect or insecure. Reporting suspected issues helps maintainers investigate and work toward fixes, but does not guarantee a resolution.
+
 ## Responsible Disclosure
 
 Please allow reasonable time for investigation and mitigation before publicly disclosing an unpatched vulnerability. Coordinate disclosure with the maintainers through the private report.
