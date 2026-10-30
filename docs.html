@@ -24,6 +24,7 @@
 
     .step-image { display:block; width:100%; height:auto; border:1px solid #333; border-radius:12px; margin:16px 0 28px; }
     .step-image:hover { border-color:#a36aff; }
+    .protected-image { -webkit-user-select:none; user-select:none; -webkit-user-drag:none; }
     .image-caption { color:#aaa; font-size:13px; margin-top:-18px; }
   </style>
 </head>
@@ -53,16 +54,16 @@
 
 
   <h2>Visual Setup Guide</h2>
-  <p>Follow these screenshots from Roblox Studio. Click any image to view it at full size.</p>
+  <p>Follow these screenshots from Roblox Studio. Images are shown inline as part of the setup guide.</p>
   <h3>1. Open Assistant settings / Abrir configurações do Assistente</h3>
   <p>Open the Assistant (Assistente) panel and select Settings (Configurações) from its menu.</p>
-  <a href="assistant.png" target="_blank" rel="noopener noreferrer"><img class="step-image" src="assistant.png" alt="Roblox Studio Assistant settings menu" loading="lazy"></a>
+  <img class="step-image protected-image" src="assistant.png" alt="Roblox Studio Assistant settings menu" loading="lazy" draggable="false">
   <h3>2. API Keys / Chaves API (optional / opcional)</h3>
   <p>The API Keys (Chaves API) tab is for configuring third-party models. It does not activate the Studio MCP Server. Never share private API keys. / A aba Chaves API configura modelos de terceiros; ela não ativa o servidor MCP do Studio. Nunca compartilhe chaves privadas.</p>
-  <a href="api-keys.png" target="_blank" rel="noopener noreferrer"><img class="step-image" src="api-keys.png" alt="Roblox Studio Assistant API Keys settings" loading="lazy"></a>
+  <img class="step-image protected-image" src="api-keys.png" alt="Roblox Studio Assistant API Keys settings" loading="lazy" draggable="false">
   <h3>3. Enable Studio as an MCP Server / Ativar o Studio como servidor MCP</h3>
   <p>In <strong>Servers (Servidores)</strong>, enable <strong>Activate Studio as MCP Server (Ativar o Studio como servidor MCP)</strong>. Under <strong>Quick Connect (Conexão rápida)</strong>, enable Antigravity or ChatGPT (Codex). Check the connected-client indicator (<strong>clientes conectados</strong>).</p>
-  <a href="mcp-server.png" target="_blank" rel="noopener noreferrer"><img class="step-image" src="mcp-server.png" alt="Roblox Studio MCP Server and Quick Connect settings" loading="lazy"></a>
+  <img class="step-image protected-image" src="mcp-server.png" alt="Roblox Studio MCP Server and Quick Connect settings" loading="lazy" draggable="false">
   <h2>Required: Enable Roblox Studio MCP Server</h2>
   <p>
     To use AI-assisted features, open Roblox Studio's <strong>Assistant (Assistente)</strong> settings,
@@ -104,5 +105,11 @@
     Precision Builder is free to use.
     Check the repository LICENSE file for details.
   </p>
+  <script>
+    document.querySelectorAll('.protected-image').forEach(img => {
+      img.addEventListener('contextmenu', event => event.preventDefault());
+      img.addEventListener('dragstart', event => event.preventDefault());
+    });
+  </script>
 </body>
 </html>
