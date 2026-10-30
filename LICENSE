@@ -1,5 +1,5 @@
 # Precision Builder — Free Modification and Distribution License
-Version 1.1
+Version 1.2
 
 Copyright (c) 2026 404 Studios br. All rights reserved.
 
@@ -39,10 +39,24 @@ These permissions do not authorize selling the Precision Builder plugin itself.
 
 Redistributors must preserve the original copyright and license notices. Modified versions must not falsely claim to be official releases or endorsed by 404 Studios br.
 
-## 7. Disclaimer
+## 7. Warranty Disclaimer and Liability Limits
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, TO THE EXTENT PERMITTED BY APPLICABLE LAW.
+THE SOFTWARE, INCLUDING PLUGINS, SOURCE CODE, DOCUMENTATION, AND AI/MCP INTEGRATIONS, IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW. NO GUARANTEE IS MADE THAT THE SOFTWARE IS ERROR-FREE, SECURE, AVAILABLE, OR SUITABLE FOR A PARTICULAR PURPOSE.
 
-## 8. Termination
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHORS, COPYRIGHT HOLDERS, CONTRIBUTORS, AND MAINTAINERS SHALL NOT BE LIABLE FOR DAMAGES, LOST DATA, CORRUPTED PROJECTS, LOST PROFITS, SERVICE INTERRUPTIONS, OR OTHER LOSSES ARISING FROM USE OF THE SOFTWARE.
+
+NOTHING HERE EXCLUDES RESPONSIBILITY OR LEGAL RIGHTS THAT CANNOT LAWFULLY BE EXCLUDED OR LIMITED.
+
+## 8. AI and MCP Risks; User Responsibilities
+
+AI agents and MCP-connected tools can generate incorrect or insecure code, modify or delete project content, and incur third-party usage costs. Users should keep backups, review and test generated scripts and changes, monitor tool actions, protect credentials, and use minimum necessary permissions. Users are responsible for their own deployment decisions, subject to applicable law.
+
+This project is independent and is not sponsored or endorsed by Roblox, Google, or OpenAI. Third-party services, software, and assets remain governed by their own terms and licenses.
+
+## 9. Reporting and Support
+
+Please report ordinary bugs through GitHub Issues and security vulnerabilities through GitHub's private vulnerability reporting. Maintainers may investigate and attempt fixes as time and resources permit, without guaranteed response times, support periods, or resolutions.
+
+## 10. Termination
 
 Permissions granted under this license terminate upon violation of its terms, subject to applicable law.
