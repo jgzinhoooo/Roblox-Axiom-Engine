@@ -208,7 +208,7 @@
       <div class="actions">
 
         <a class="button primary"
-           href="https://github.com/jgzinhoooo/Roblox-Axiom-Engine/releases/latest">
+           href="#" id="download-latest" aria-disabled="true">
           <svg viewBox="0 0 24 24">
             <path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3"/>
           </svg>
@@ -224,8 +224,8 @@
 
       </div>
 
-      <p class="release">
-        In development · Roblox Studio
+      <p class="release" id="release-status">
+        Checking latest release · Roblox Studio
       </p>
     </main>
 
@@ -237,5 +237,42 @@
     </footer>
 
   </div>
+  <script>
+    const releasesApi = "https://api.github.com/repos/jgzinhoooo/Roblox-Axiom-Engine/releases/latest";
+    const downloadButton = document.getElementById("download-latest");
+    const releaseStatus = document.getElementById("release-status");
+
+    async function setupDownload() {
+      try {
+        const response = await fetch(releasesApi, {
+          headers: { "Accept": "application/vnd.github+json" }
+        });
+        if (!response.ok) throw new Error("No published release");
+        const release = await response.json();
+        const assets = release.assets || [];
+        const asset = assets.find(a => /\.(rbxm|rbxmx|rbxl|rbxlx|zip)$/i.test(a.name))
+                   || assets.find(a => !/\.(txt|md|json)$/i.test(a.name));
+        if (!asset) {
+          releaseStatus.textContent = "No downloadable plugin available yet";
+          downloadButton.setAttribute("aria-disabled", "true");
+          return;
+        }
+        downloadButton.href = asset.browser_download_url;
+        downloadButton.removeAttribute("aria-disabled");
+        releaseStatus.textContent = release.tag_name + " · " + asset.name;
+      } catch (error) {
+        releaseStatus.textContent = "Download coming soon · Roblox Studio";
+        downloadButton.setAttribute("aria-disabled", "true");
+      }
+    }
+
+    downloadButton.addEventListener("click", event => {
+      if (downloadButton.getAttribute("aria-disabled") === "true") {
+        event.preventDefault();
+      }
+    });
+
+    setupDownload();
+  </script>
 </body>
 </html>
