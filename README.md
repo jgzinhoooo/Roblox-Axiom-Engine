@@ -6,9 +6,30 @@
 
 🌐 **Official Website:** https://jgzinhoooo.github.io/Roblox-Axiom-Engine/
 
-Roblox Axiom Engine is an AI-assisted development project designed to bring precision, automation, and multi-agent collaboration to Roblox Studio.
+Roblox Axiom Engine is an experimental AI-assisted development project for Roblox Studio. **Precision Builder** is its core tool. This repository documents both the current development work and the longer-term vision; planned features are not necessarily available today.
 
-Its core component, **Precision Builder**, enables AI agents to build, modify, inspect, and optimize 3D environments, scripts, and user interfaces through a shared development infrastructure.
+## What works today?
+
+**Public verification status:** There is not yet a published, independently verifiable feature checklist or linked demonstration in this README. We have tested AI-assisted scene building during development, but a repeatable public demo and an exact compatibility matrix still need to be documented. Do not assume every planned feature works in a downloadable build.
+
+| Area | Publicly verified status |
+| --- | --- |
+| Project documentation and MCP setup guide | Available |
+| AI-assisted modeling/building | Experimental; public reproducible demo pending |
+| Blender-to-Roblox automated import | Planned / unverified |
+| Automatic model positioning | Planned / unverified |
+| Multi-agent coordination, rollback, optimization | Goals; not publicly verified |
+
+## Demo
+
+**A short recording/GIF showing a complete, real Roblox Studio task is still needed.** No placeholder video is presented as proof. Once recorded, it should show the prompt, actual AI actions, the resulting model in Studio, and the plugin/build version.
+
+## Try it / Quick start
+
+1. Check [GitHub Releases](https://github.com/jgzinhoooo/Roblox-Axiom-Engine/releases) for an actual downloadable build. **If no release asset exists, there is no confirmed public installation package yet.**
+2. Follow the [illustrated MCP connection guide](https://jgzinhoooo.github.io/Roblox-Axiom-Engine/docs.html) to configure Roblox Studio's MCP Server and a compatible AI client.
+3. Follow any version-specific installation instructions attached to the release. The MCP setup guide alone does **not** install Precision Builder.
+4. Test in a backup or disposable Roblox place, and review any AI-generated changes.
 
 ## AI Integration
 
