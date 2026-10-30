@@ -43,6 +43,14 @@ Potential concerns include unauthorized actions, unsafe command execution, expos
 
 Issues in third-party services or Roblox Studio itself should also be reported to the relevant vendor through its official security reporting process.
 
+## Disclaimer and Reporting Commitment
+
+Roblox Axiom Engine and Precision Builder are provided **"as is"**, without warranties, to the extent permitted by applicable law. The maintainers do not accept liability for losses, damages, disruptions, or other issues arising from the use of the plugin, **to the extent permitted by applicable law**. This statement does not exclude responsibilities that cannot legally be excluded.
+
+**Please report any bugs, security vulnerabilities, unexpected behavior, or other problems.** We encourage users to share enough information for us to investigate and work toward a fix. Reports are appreciated and will be reviewed as maintainer availability allows, but a fix or response time cannot be guaranteed.
+
+For security vulnerabilities, use GitHub's **private vulnerability reporting** feature. For ordinary bugs and feature issues, use the repository's public **Issues** section, without including secrets or sensitive information.
+
 ## Responsible Disclosure
 
 Please allow reasonable time for investigation and mitigation before publicly disclosing an unpatched vulnerability. Coordinate disclosure with the maintainers through the private report.
