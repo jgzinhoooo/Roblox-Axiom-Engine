@@ -1,5 +1,7 @@
 # Roblox Axiom Engine
 
+> **Development & Update Notice:** Axiom Engine is an independent project maintained in my free time alongside work, school, and other responsibilities. Development time is limited, so updates may be irregular and no fixed release schedule is guaranteed. I will keep improving the project whenever possible, prioritizing stability and quality over rushed releases. Thank you for your patience and support.
+
 **Precision Builder — AI-Powered Development for Roblox Studio**
 
 🌐 **Official Website:** https://jgzinhoooo.github.io/Roblox-Axiom-Engine/
