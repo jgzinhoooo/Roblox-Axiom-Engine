@@ -29,23 +29,40 @@ Both agents are intended to communicate with Roblox Studio through a shared brid
 - **Automated Validation:** Detect errors, geometry issues, and potential conflicts.
 - **Version Control & Rollback:** Track changes and recover previous states.
 - **Optimized Execution:** Batch operations to reduce unnecessary tool calls.
+- **Blender Modeling & Import (Planned):** Generate detailed 3D assets in Blender and bring them into Roblox Studio with intelligent positioning.
 
-## Architecture
+## Architecture (Planned)
 
 ```text
-Google Antigravity     OpenAI Codex
-        \                  /
-         \                /
-          Precision Hub
-                |
-           StudioBridge
-                |
-         Precision Builder
-                |
-           Roblox Studio
+ Google Antigravity        OpenAI Codex
+          \                   /
+           \                 /
+              Precision Hub
+                   |
+          Task & Scene Planning
+                   |
+          +--------+--------+
+          |                 |
+   Native Building     Blender Modeling
+   (Precision Builder) (Python / 3D Assets)
+          |                 |
+          |          Export & Import Bridge
+          |                 |
+          +--------+--------+
+                   |
+              StudioBridge
+                   |
+          Roblox Studio (MCP)
+                   |
+        Scene-aware Placement
+        (Scale / Pivot / Rotation)
+                   |
+          Validation & Review
 ```
 
-The architecture is designed to allow both agents to work independently or collaboratively using shared tools and project information.
+**Current priority:** AI-generated Blender models, a reliable export/import workflow, and accurate placement inside Roblox Studio. Native building remains a separate path. This diagram is a proposed architecture, **not a claim that automated Blender import is already implemented**. See the [development roadmap](ROADMAP.md).
+
+The architecture aims to let agents work independently or collaboratively while coordinating tools and scene information.
 
 ## Project Goals
 
@@ -62,6 +79,7 @@ The project is under active development. Features and integrations described her
 ## Technology
 
 - Roblox Studio
+- Blender (planned integration)
 - Luau
 - Model Context Protocol (MCP), where supported
 - Google Antigravity
